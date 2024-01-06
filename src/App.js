@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import Image from './component/Image';
-
+import Home from "./pages/Home/Home";
+import { Person } from "@mui/icons-material";
 
 function App() {
   return (
     <>
+      <Home />
     </>
   );
 }
