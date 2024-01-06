@@ -1,9 +1,10 @@
-import React from "react";
+import "./home.css";
 import Topbar from "../../component/topbar/Topbar";
 import Sidebar from "../../component/sidebar/Sidebar";
-import Feed from "../../component/Feed/Feed";
+
 import Rightbar from "../../component/rightbar/Rightbar";
-import "./home.css";
+// import Feed from "../../component/feed/Feed";
+import Feed from "../../component/feed/Feed";
 
 export default function Home() {
   return (

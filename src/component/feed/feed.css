@@ -1,5 +1,6 @@
 .feed{
-    flex: 5.5;
-    background: green;
-    height:  calc(100vh - 55px);
+    flex: 4.5;
+    height:  calc(100vh - 50px);
+    background: #F0F2F5;
+    overflow-y: scroll;
 }

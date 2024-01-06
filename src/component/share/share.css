@@ -1,0 +1,70 @@
+.shareWrapper{
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 20px;
+    background: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px #bebebe;
+    overflow-y: scroll;
+}
+
+.thoughts{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profileImage{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.thoughts .text{
+    font-size: 16px;
+    color: #303030;
+}
+
+.shareHr{
+    color:#000 ;
+    margin-top: 10px;
+}
+
+.shareItems{
+    /* padding: 15px; */
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.shareListItem{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    gap: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+   
+}
+
+.shareListItem:hover{
+   background: #bfc1c3;
+   
+}
+
+.shareIcon{
+    font-size: 25px;
+}
+
+.liveVideo{
+    color: red;
+}
+.photo{
+    color: rgb(10, 143, 10);
+}
+.feeling{
+    color: #f7b204;
+}
